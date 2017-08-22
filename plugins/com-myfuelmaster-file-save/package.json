@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin.git",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin.git",
+        "spec": "git+https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin.git",
+          "sshUrl": "git+ssh://git@github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin.git",
+          "httpsUrl": "git+https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin.git",
+          "gitUrl": "git://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin.git",
+          "shortcut": "github:hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin",
+          "directUrl": "https://raw.githubusercontent.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin/master/package.json"
+        }
+      },
+      "J:\\ionic_projects\\FileSave\\FileSavePOC2\\node_modules"
+    ]
+  ],
+  "_from": "git+https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin.git",
+  "_id": "FileSavePlugin_github@0.0.1",
+  "_inCache": true,
+  "_location": "/FileSavePlugin_github",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin.git",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin.git",
+    "spec": "git+https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin.git",
+      "sshUrl": "git+ssh://git@github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin.git",
+      "httpsUrl": "git+https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin.git",
+      "gitUrl": "git://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin.git",
+      "shortcut": "github:hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin",
+      "directUrl": "https://raw.githubusercontent.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin.git#0b1d03d79861cc1cb60f2e7f703c282ed3ea5c47",
+  "_shasum": "e61d96670cd29748b90bf88beb447db2831bb81e",
+  "_shrinkwrap": null,
+  "_spec": "https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin.git",
+  "_where": "J:\\ionic_projects\\FileSave\\FileSavePOC2\\node_modules",
+  "author": {
+    "name": "Jon Hoffman"
+  },
+  "bugs": {
+    "url": "https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin/issues"
+  },
+  "cordova": {
+    "id": "com-myfuelmaster-file-save",
+    "platforms": [
+      "android",
+      "ios",
+      "windows"
+    ]
+  },
+  "dependencies": {},
+  "description": "POC for shared local folder",
+  "devDependencies": {},
+  "gitHead": "0b1d03d79861cc1cb60f2e7f703c282ed3ea5c47",
+  "homepage": "https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows"
+  ],
+  "license": "Apache",
+  "name": "FileSavePlugin_github",
+  "optionalDependencies": {},
+  "readme": "Plugin for:  https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder\r\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin.git"
+  },
+  "version": "0.0.1"
+}
