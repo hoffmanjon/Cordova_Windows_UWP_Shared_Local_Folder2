@@ -8,10 +8,10 @@ The problem arises when we attempt to do an update of our app.  When the update 
 
 We also tried installing the application for multiple users on the same system.  When we install the Ionic application with a version that another user has, the shared local folder is not removed however as soon as we update to a new version then the shared local folder is removed.  I belive this means it is isolated to an update and not by the install process itself.
 
-#Configure Windows
+# Configure Windows
 You will need to set a group policy to get the shared local folders working. In the in the "Using Shared Local" section of this page: https://blogs.windows.com/buildingapps/2016/05/24/sharing-your-local-app-data it describes how to change the policy and which one to change.
 
-#How project was created
+# How project was created
 ionic start FileSharePOC2 blank
 cd FileSharePOC2
 cordova platform add windows
@@ -22,12 +22,12 @@ cordova plugin add https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Loca
 
 `added code`
 
-#Building Project
+# Building Project
 First add plugin using `cordova plugin add https://github.com/hoffmanjon/Cordova_Windows_UWP_Shared_Local_Folder_plugin.git`
 
 run `cordova build windows`
 
-#Reproduce issue
+# Reproduce issue
 build several versions of the project changing the version number, in line 2 of the config.xml file, for each build `<widget id="io.ionic.starter" version="0.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">`
 
 You will want to increase the version number for each build so you can test updating the app to see the shared local files being removed.  Use the following steps to reproduce the issue:
